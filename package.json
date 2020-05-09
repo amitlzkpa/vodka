@@ -4,7 +4,8 @@
   "description": "Vodka is an experiment in implementing something that I'm tentatively calling a \"representational programming language.\" There are several ways to think about what this means, none of which are entirely complete:",
   "main": "index.js",
   "scripts": {
-    "start": "node test-server/app.js",
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
   }
 }
