@@ -5,4 +5,4 @@ server/packages/poem*
 server/packages/perf*
 server/packages/ig*
 server/src/favicon.ico
-
+node_modules/
